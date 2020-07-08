@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+label {
+    margin: 2em auto;
+    color: white;
+    font-size: 2em;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    width: 30%;
+    margin: 5em auto;
+    background: linear-gradient(45deg,purple, blue)
+}
+button {
+    margin: 1em 5em
+}
